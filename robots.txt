@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alanwang.dev/al-folio/sitemap.xml
+Sitemap: https://https://1blt.github.io//sitemap.xml
