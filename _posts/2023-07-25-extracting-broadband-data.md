@@ -44,5 +44,5 @@ The final workflow allowed us to successfully extract **100% block-group level c
     {% include figure.liquid path="assets/img/100_mbps.png" title="Data extracted from broadband website by block-group" class="img-fluid rounded z-depth-1" %}
 </div>
 
-## 🍽️ Final Byte  
+## 🍽️ Final Bite  
 When brute force breaks down, precision wins. In scraping, as in design, knowing *where* to poke often matters more than how hard you push. Sometimes, the cleverest path is the one that mimics how humans would look things up—just with a lot more patience.
