@@ -8,7 +8,7 @@ categories: research-log
 featured: false
 mermaid:
   enabled: true
-  zoomable: true
+  zoomable: false
 ---
 
 ## 🥟 Appetizer  
@@ -20,8 +20,10 @@ To sidestep the IP throttling issue, we developed a novel scraping workflow that
 - Rather than pulling bulk datasets directly, we **reverse-geocoded incrementally spaced latitude-longitude coordinates** and delayed sampling to retrieve addresses block-by-block.
 - This allowed us to systematically gather coverage data at the **block group level** without tripping anti-bot protections.
 
-```mermaid
-flowchart LR
+<div style="display: flex; justify-content: center;">
+  <div style="width: fit-content; max-width: 100%;">
+    <pre class="mermaid">
+flowchart TD
     A[Select GEOIDs to parse] --> B{Data @ geography <br/> level exist?}
     B -- Yes, move to next --> A
     B -- No --> C[Generate n </br> points inside shape]
@@ -33,7 +35,9 @@ flowchart LR
     H --> I{More data to </br> extract?}
     I -- No --> J[Done]
     I -- Yes --> A
-```
+    </pre>
+  </div>
+</div>
 
 - We tested multiple VPN approaches, and found that **IP rotation tools like Surfshark’s** were not reliable overnight—often stalling or failing to refresh, making them unsuitable for unattended scraping.
 - A tailored approach for simulating human browsing behavior—combined with measured pacing—enabled us to collect data from the website in a respectful and non-intrusive manner.
