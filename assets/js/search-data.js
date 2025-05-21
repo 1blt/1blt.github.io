@@ -30,7 +30,29 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "news-dissertation-defense",
+        },{id: "post-exploring-and-splitting-topojsons",
+        
+          title: "Exploring and Splitting TopoJSONs",
+        
+        description: "Investigating how to compress and lazily load geographic datasets using TopoJSON for scalable visualization.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/topojson/";
+          
+        },
+      },{id: "post-extracting-broadband-data-in-an-ip-throttled-web",
+        
+          title: "Extracting Broadband Data in an IP-Throttled Web",
+        
+        description: "A creative geospatial scraping strategy to extract block-group broadband data for Alabama and Georgia capitals.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2023/extracting-broadband-data/";
+          
+        },
+      },{id: "news-dissertation-defense",
           title: 'Dissertation defense',
           description: "",
           section: "News",handler: () => {
