@@ -82,11 +82,6 @@ ninja.data = [{
           description: "Have you ever wanted to play video games with your non-gamer friends?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ar-sandbox/";
-            },},{id: "projects-artificial-reefs",
-          title: 'Artificial Reefs',
-          description: "Evangelos Pantazis + Iason Pantazis + Alan Wang",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/artificial_reefs/";
             },},{id: "projects-force-pedometer",
           title: 'Force Pedometer',
           description: "Your foot, as an interface",
