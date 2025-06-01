@@ -52,9 +52,9 @@ ninja.data = [{
             window.location.href = "/blog/2023/extracting-broadband-data/";
           
         },
-      },{id: "post-preparing-multi-state-localized-open-source-routing-machine-queries",
+      },{id: "post-merging-osm-files",
         
-          title: "Preparing Multi-State Localized Open Source Routing Machine Queries",
+          title: "Merging OSM Files",
         
         description: "Merging states for more accurate routing calculations",
         section: "Posts",
