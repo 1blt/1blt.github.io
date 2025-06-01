@@ -52,6 +52,17 @@ ninja.data = [{
             window.location.href = "/blog/2023/extracting-broadband-data/";
           
         },
+      },{id: "post-preparing-multi-state-localized-open-source-routing-machine-queries",
+        
+          title: "Preparing Multi-State Localized Open Source Routing Machine Queries",
+        
+        description: "Merging states for more accurate routing calculations",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2022/merging-osm/";
+          
+        },
       },{id: "news-dissertation-defense",
           title: 'Dissertation defense',
           description: "",
