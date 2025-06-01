@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Preparing Multi-State Localized Open Source Routing Machine Queries
+title: Merging OSM Files
 date: 2022-06-23 09:00:00
 description: Merging states for more accurate routing calculations
 tags: code data geo mac docker
@@ -45,7 +45,7 @@ This post investigates discrepancies in routing distances using multiple geospat
 <hr>
 
 <details>
-<summary><strong>June 23, Thursday:</strong> Further investigating the OSRM queries</summary>
+<summary><strong>June 22, Wednesday:</strong> Further investigating the OSRM queries</summary>
 <div markdown="1">
 - I took a look at the OSRM query, and found some [stackoverflow responses](https://stackoverflow.com/questions/48221046/osrm-giving-wrong-response-for-distance-between-2-points). Specifically,
   - Do a manual sanity check about the route [here](http://map.project-osrm.org/)
