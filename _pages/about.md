@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <p>Data Scientist @ <a href="https://www.spaceforce.mil/">USSF</a></p><p>NobleReach Scholar @ <a href="https://www.linkedin.com/company/noblereachfdn/mycompany/"> NobleReach Foundation</a></p>
+subtitle: Creative Technologist
 
 profile:
   align: right
@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I'm a creative technologist blending data science, design, and automation. I help teams build intuitive systems that scale from human to global levels of interaction.
+<!-- I'm a creative technologist blending data science, design, and automation. -->

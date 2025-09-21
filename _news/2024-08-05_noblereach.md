@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I joined the inaugural class of [NobleReach](https://noblereachfoundation.org/talent-opportunities/scholars-program/) Scholars
+I joined the inaugural class of [NobleReach](https://noblereachfoundation.org/talent-opportunities/scholars-program/) Scholars, and started work @USSF
