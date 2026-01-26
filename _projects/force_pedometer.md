@@ -13,10 +13,10 @@ We decided that starting with a more frequent sample rate would allow us to obse
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/foot_circuit.jpg" title="Foor circuit" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/foot_circuit.jpg" title="Foot circuit" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/foot-setup.jpg" title="Fot setup 1" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid path="assets/img/foot-setup.jpg" title="Foot setup 1" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.liquid path="assets/img/foot-setup2.jpg" title="Foot setup 2" class="img-fluid rounded z-depth-1" %}
