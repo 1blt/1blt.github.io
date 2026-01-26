@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://https://1blt.github.io//sitemap.xml
+Sitemap: https://1blt.github.io//sitemap.xml
