@@ -24,4 +24,4 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-<!-- I'm a creative technologist blending data science, design, and automation. -->
+<!-- I'm a creative technologist blending data science, design, and automation. Hello world! -->
