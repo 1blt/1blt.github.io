@@ -1,0 +1,77 @@
+- year: 2023
+  venue: Scientific Reports
+  name: Building performance simulations can inform IoT privacy leaks in buildings
+  authors: Wang, Campbell, Heydarian
+  link: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10172350/
+
+- year: 2023
+  venue: EuroS&P
+  name: Exploring Smart Commercial Building Occupants' Perceptions and Notification Preferences of IoT Data Collection
+  authors: Le, Wang, Yao, Feng, Heydarian, Sadeh, Tian
+  link: https://ieeexplore.ieee.org/document/10190528
+
+- year: 2023
+  venue: BuildSys
+  name: "Measuring Success, One Sensor at a Time: A Sensing Infrastructure for Longitudinal Workspace Behavior Monitoring"
+  authors: Li, Tavakoli, Wang, Kaur, Barnes, Doryab, Heydarian
+  link: https://dl.acm.org/doi/10.1145/3600100.3626269
+
+- year: 2023
+  venue: Biocomplexity Institute
+  name: Using Language Models to Classify Innovation and Extract Structured Information from News Stories
+  authors: Kattampallil, Ratcliff, Korkmaz, Wang, Zhou, Anderson, Jankowski
+  link: https://doi.org/10.18130/hatt-jk83
+
+- year: 2023
+  venue: Biocomplexity Institute
+  name: International Downtown Association Vitality Index Expanding the index into 2020 and beyond
+  authors: Wang, Siwe, Mehdi, Goswami, Montalvo, Shipp
+  link: https://doi.org/10.18130/w877-y075
+
+- year: 2022
+  venue: Energy Research & Social Science
+  name: "Bridging the gap from test rooms to field-tests for human indoor comfort studies"
+  authors: Cureau, Pigliautile, Pisello, et al.
+  link: https://doi.org/10.1016/j.erss.2022.102778
+
+- year: 2021
+  venue: Renewable and Sustainable Energy Reviews
+  name: "Test rooms to study human comfort in buildings: A review of controlled experiments"
+  authors: Pisello, Pigliautile, Andargie, et al.
+  link: https://doi.org/10.1016/j.rser.2021.111359
+
+- year: 2021
+  venue: IEEE SIEDS
+  name: A user interface informing medical staff on continuous indoor environmental quality
+  authors: Rantas, Wang, Jarrard, Sterchi, Wang, Varnosfaderani, Heydarian
+  link: https://ieeexplore.ieee.org/document/9475704
+
+- year: 2020
+  venue: BuildSys
+  name: "Is my sensor sleeping, hibernating, or broken? A data-driven monitoring system"
+  authors: Wang, Su, Heydarian, Campbell, Beling
+  link: https://dl.acm.org/doi/10.1145/3408308.3427625
+
+- year: 2019
+  venue: ASCE i3CE
+  name: Exploring the Effects of Lighting Brightness and Color on Occupancy and Emotions
+  authors: Wang, Heydarian
+  link: https://ascelibrary.org/doi/10.1061/9780784482438.001
+
+- year: 2017
+  venue: Automation in Construction
+  name: Towards user centered building design via immersive virtual environments
+  authors: Heydarian, Pantazis, Wang, Gerber, Becerik-Gerber
+  link: https://doi.org/10.1016/j.autcon.2017.05.006
+
+- year: 2017
+  venue: Automation in Construction
+  name: "A multi-agent approach for performance based architecture"
+  authors: Gerber, Pantazis, Wang
+  link: https://doi.org/10.1016/j.autcon.2017.01.001
+
+- year: 2016
+  venue: SimAUD
+  name: "A Multi-Agent System for Design: Geometric Complexity in Support of Building Performance"
+  authors: Pantazis, Gerber, Wang
+  link: https://www.simaud.org/proceedings/

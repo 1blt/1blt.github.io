@@ -1,11 +1,23 @@
 ---
-layout: page
+layout: project
 title: Garball
 description: Designer for the Palos Verdes Art Center
 img: assets/img/garball_2.jpg
+images:
+  - assets/img/garball_2.jpg
+  - assets/img/garball_humes.jpg
+  - assets/img/garball_advertise.png
+  - assets/img/garball_gather.png
+  - assets/img/garball_3.jpg
+  - assets/img/garball.jpg
 importance: 3
-category: design
-# redirect: https://unsplash.com
+year: 2019
+venue: Palos Verdes Art Center
+summary: |
+  An interactive gumball machine-inspired installation that transforms recycling into a playful introduction to garbology.
+  • Constructed from PVC, nylon, and netting to spark conversations about waste
+  • Traveled to venues including Loyola Marymount University
+  • Featured visit from Pulitzer Prize-winning journalist Edward Humes
 ---
 
 <div class="row">
