@@ -5,37 +5,39 @@
 
 @use "sass:color";
 
-// Colors
-$red-color: #ff3636 !default;
-$red-color-dark: #b71c1c !default;
-$orange-color: #f29105 !default;
-$blue-color: #0076df !default;
-$blue-color-dark: #00369f !default;
-$cyan-color: #2698ba !default;
-$light-cyan-color: color.adjust($cyan-color, $lightness: 25%);
-$green-color: #00ab37 !default;
-$green-color-lime: #b7d12a !default;
-$green-color-dark: #009f06 !default;
-$green-color-light: #ddffdd !default;
-$green-color-bright: #11d68b !default;
-$purple-color: #b509ac !default;
-$light-purple-color: color.adjust($purple-color, $lightness: 25%);
-$pink-color: #f92080 !default;
-$pink-color-light: #ffdddd !default;
-$yellow-color: #efcc00 !default;
+// Terminal-inspired colors
+$red-color: #f85149 !default;
+$red-color-dark: #da3633 !default;
+$orange-color: #d29922 !default;
+$blue-color: #58a6ff !default;
+$blue-color-dark: #388bfd !default;
+$cyan-color: #f87171 !default;  // bright red accent (matches blue brightness)
+$light-cyan-color: #fca5a5;
+$green-color: #3fb950 !default;
+$green-color-lime: #56d364 !default;
+$green-color-dark: #238636 !default;
+$green-color-light: #2ea043 !default;
+$green-color-bright: #3fb950 !default;
+$purple-color: #a371f7 !default;
+$light-purple-color: #bc8cff;
+$pink-color: #f778ba !default;
+$pink-color-light: #ffb3d2 !default;
+$yellow-color: #d29922 !default;
 
-$grey-color: #828282 !default;
-$grey-color-light: color.adjust($grey-color, $lightness: 40%);
-$grey-color-dark: #1c1c1d;
-$grey-900: #212529;
+$grey-color: #8b949e !default;
+$grey-color-light: #c9d1d9;
+$grey-color-dark: #0d1117;
+$grey-900: #161b22;
 
-$white-color: #ffffff !default;
-$black-color: #000000 !default;
+$white-color: #f0f6fc !default;
+$black-color: #010409 !default;
 
 // Theme colors
+$code-bg-color-light: #161b22;
+$code-bg-color-dark: #161b22 !default;
 
-$code-bg-color-light: rgba($purple-color, 0.05);
-$code-bg-color-dark: #2c3237 !default;
+// Monospace font stack
+$mono-font-family: "JetBrains Mono", "Fira Code", "SF Mono", Menlo, Monaco, Consolas, monospace;
 
 // Font awesome location
 $fa-font-path: "../webfonts";

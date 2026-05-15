@@ -4,7 +4,7 @@ permalink: /publications/
 title: publications
 description: Selected work exploring data, design, and how systems shape the world around us.
 nav: true
-nav_order: 2
+nav_order: 3
 ---
 
 <!-- _pages/publications.md -->

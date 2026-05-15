@@ -4,8 +4,7 @@ title: projects
 permalink: /projects/
 description: A selection of projects combining design, code, and systems thinking.
 nav: true
-nav_order: 3
-display_categories: [compute, design]
+nav_order: 2
 horizontal: false
 ---
 

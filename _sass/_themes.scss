@@ -5,30 +5,30 @@
 @use "sass:color";
 
 :root {
-  color-scheme: light;
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
+  // Terminal-style dark theme by default
+  color-scheme: dark;
+  --global-bg-color: #{$grey-color-dark};
+  --global-code-bg-color: #{$code-bg-color-dark};
+  --global-text-color: #{$grey-color-light};
   --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-text-color-muted: #6e7681;
+  --global-theme-color: #{$cyan-color};
+  --global-hover-color: #{$cyan-color};
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
-  --global-footer-link-color: #{$white-color};
+  --global-footer-bg-color: #{$grey-900};
+  --global-footer-text-color: #{$grey-color};
+  --global-footer-link-color: #{$cyan-color};
   --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0, 0, 0, 0.1);
-  --global-card-bg-color: #{$white-color};
-  --global-highlight-color: #{$red-color-dark};
-  --global-back-to-top-bg-color: rgba(
-    #{color.channel($black-color, "red", $space: rgb)},
-    #{color.channel($black-color, "green", $space: rgb)},
-    #{color.channel($black-color, "blue", $space: rgb)},
-    0.4
-  );
-  --global-back-to-top-text-color: #{$white-color};
-  --global-newsletter-bg-color: #{$white-color};
-  --global-newsletter-text-color: #{$black-color};
+  --global-divider-color: #30363d;
+  --global-card-bg-color: #{$grey-900};
+  --global-highlight-color: #{$yellow-color};
+  --global-back-to-top-bg-color: rgba(248, 113, 113, 0.2);
+  --global-back-to-top-text-color: #{$cyan-color};
+  --global-newsletter-bg-color: #{$grey-900};
+  --global-newsletter-text-color: #{$grey-color-light};
+
+  // Monospace font
+  --global-font-family: #{$mono-font-family};
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
