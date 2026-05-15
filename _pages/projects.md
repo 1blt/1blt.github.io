@@ -1,32 +1,65 @@
 ---
-layout: terminal
-title: Projects
+layout: page
+title: projects
 permalink: /projects/
 description: A selection of projects combining design, code, and systems thinking.
+nav: true
+nav_order: 3
+display_categories: [compute, design]
+horizontal: false
 ---
 
-<a href="{{ '/' | relative_url }}" class="back-link">cd ..</a>
-
-<div class="section-header" style="margin-top: 0;">
-  <span class="prompt">$</span>
-  <span class="command">ls -la projects/</span>
-</div>
-
-<p style="margin-bottom: 2rem;">A selection of projects combining design, code, and systems thinking.</p>
-
-<div class="projects-grid">
-{% assign sorted_projects = site.projects | sort: "importance" %}
-{% for project in sorted_projects %}
-<div class="project-card">
-  <a href="{{ project.url | relative_url }}" class="project-title">{{ project.title }}</a>
-  <p class="project-description">{{ project.description }}</p>
-  <div class="project-meta">
-    {% if project.category %}<span class="tag">{{ project.category }}</span>{% endif %}
+<!-- pages/projects.md -->
+<div class="projects">
+{% if site.enable_project_categories and page.display_categories %}
+  <!-- Display categorized projects -->
+  {% for category in page.display_categories %}
+  <a id="{{ category }}" href=".#{{ category }}">
+    <h2 class="category">{{ category }}</h2>
+  </a>
+  {% assign categorized_projects = site.projects | where: "category", category %}
+  {% assign sorted_projects = categorized_projects | sort: "importance" %}
+  <!-- Generate cards for each project -->
+  {% if page.horizontal %}
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
   </div>
-</div>
-{% endfor %}
-</div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+  {% endfor %}
 
-<footer class="terminal-footer">
-  <span class="footer-prompt">$</span> echo "{{ site.first_name }} {{ site.last_name }} &copy; {{ 'now' | date: '%Y' }}"
-</footer>
+{% else %}
+
+<!-- Display projects without categories -->
+
+{% assign sorted_projects = site.projects | sort: "importance" %}
+
+  <!-- Generate cards for each project -->
+
+{% if page.horizontal %}
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2">
+    {% for project in sorted_projects %}
+      {% include projects_horizontal.liquid %}
+    {% endfor %}
+    </div>
+  </div>
+  {% else %}
+  <div class="row row-cols-1 row-cols-md-3">
+    {% for project in sorted_projects %}
+      {% include projects.liquid %}
+    {% endfor %}
+  </div>
+  {% endif %}
+{% endif %}
+</div>

@@ -1,23 +1,20 @@
 ---
-layout: terminal
-title: Publications
+layout: page
 permalink: /publications/
+title: publications
 description: Selected work exploring data, design, and how systems shape the world around us.
+nav: true
+nav_order: 2
 ---
 
-<a href="{{ '/' | relative_url }}" class="back-link">cd ..</a>
+<!-- _pages/publications.md -->
 
-<div class="section-header" style="margin-top: 0;">
-  <span class="prompt">$</span>
-  <span class="command">cat publications.bib</span>
-</div>
+<!-- Bibsearch Feature -->
 
-<p style="margin-bottom: 2rem;">Selected work exploring data, design, and how systems shape the world around us.</p>
+{% include bib_search.liquid %}
 
-<div class="publications-list">
+<div class="publications">
+
 {% bibliography %}
-</div>
 
-<footer class="terminal-footer">
-  <span class="footer-prompt">$</span> echo "{{ site.first_name }} {{ site.last_name }} &copy; {{ 'now' | date: '%Y' }}"
-</footer>
+</div>
