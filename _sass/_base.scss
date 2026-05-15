@@ -619,38 +619,6 @@ footer.sticky-bottom {
   }
 }
 
-// Project prev/next navigation
-.project-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 3rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--global-divider-color);
-
-  a {
-    color: var(--global-text-color-light);
-    text-decoration: none;
-    transition: color 0.2s ease;
-
-    &:hover {
-      color: var(--global-text-color);
-    }
-
-    .arrow {
-      color: var(--global-theme-color);
-    }
-  }
-
-  .prev-project {
-    text-align: left;
-  }
-
-  .next-project {
-    text-align: right;
-    margin-left: auto;
-  }
-}
 
 .post-list {
   margin: 0;
@@ -999,14 +967,6 @@ code {
   padding: 3px 3px;
 }
 
-// Transitioning Themes
-html.transition,
-html.transition *,
-html.transition *:before,
-html.transition *:after {
-  transition: all 750ms !important;
-  transition-delay: 0 !important;
-}
 
 // Extra Markdown style (post Customization)
 .post {

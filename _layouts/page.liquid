@@ -28,35 +28,4 @@ layout: default
   {% if site.giscus and page.giscus_comments %}
     {% include giscus.liquid %}
   {% endif %}
-
-  {% comment %} Prev/Next navigation for projects (circular) {% endcomment %}
-  {% if page.collection == 'projects' %}
-    {% assign sorted_projects = site.projects | sort: "importance" %}
-    {% assign project_count = sorted_projects | size %}
-    {% for project in sorted_projects %}
-      {% if project.url == page.url %}
-        {% assign current_index = forloop.index0 %}
-      {% endif %}
-    {% endfor %}
-    {% assign prev_index = current_index | minus: 1 %}
-    {% assign next_index = current_index | plus: 1 %}
-    {% if prev_index < 0 %}
-      {% assign prev_index = project_count | minus: 1 %}
-    {% endif %}
-    {% if next_index >= project_count %}
-      {% assign next_index = 0 %}
-    {% endif %}
-
-    {% assign prev_project = sorted_projects[prev_index] %}
-    {% assign next_project = sorted_projects[next_index] %}
-
-    <nav class="project-nav">
-      <a href="{{ prev_project.url | relative_url }}" class="prev-project">
-        <span class="arrow">←</span> {{ prev_project.title }}
-      </a>
-      <a href="{{ next_project.url | relative_url }}" class="next-project">
-        {{ next_project.title }} <span class="arrow">→</span>
-      </a>
-    </nav>
-  {% endif %}
 </div>

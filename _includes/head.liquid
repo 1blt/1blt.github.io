@@ -82,6 +82,11 @@
   <script>
     initTheme();
   </script>
+{% else %}
+  <!-- Dark mode only (no toggle) -->
+  <script>
+    document.documentElement.setAttribute("data-theme", "dark");
+  </script>
 {% endif %}
 
 {% if page.map %}
